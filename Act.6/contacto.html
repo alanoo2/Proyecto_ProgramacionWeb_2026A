@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    
+    <header>
+        <h1>SmartAlerta</h1><hr>
+        <p>Alertas tempranas para identificar a estudiantes en riesgo de deserción</p>
+    </header>
+
+    <nav aria-label="Navegación Principal">
+        <ul>
+            <li>
+                <a href="act1.html">INICIO</a></li>
+            <li><a href="panel.html">PANEL</a></li>
+            <li><a href="register.html">REGISTRAR</a></li>
+            <li><a href="contacto.html">CONTACTANOS</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <form name="contacto" action="http://cucea.udg.mx" method="get">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" maxlength="12" placeholder="nombre" required>
+            <br><br>
+            <label for="edad">Edad</label>
+            <input type="number" name="edad" id="edad" min="0">
+            <br><br>
+            <label for="password">Ingresa Contraseña</label>
+            <input type="password" name="password" id="password" maxlength="8" placeholder="password" required></input>
+            <br><br>
+            <label for="email">Correo</label>
+            <input type="email" name="correo" id="correo">
+            <br><br>
+            <label for="fecha">Fecha</label>
+            <input type="date" name="fecha" id="fecha">
+            <br><br>
+            <label for="hora">Hora</label>
+            <input type="time" name="hora" id="hora">
+            <br><br>
+            <label for="genero">Genero</label><br>
+            <input type="radio" name="genero" id="genero" value="M" >Mujer
+            <input type="radio" name="genero" id="genero" value="H"> Hombre
+            <input type="radio" name="genero" id="genero" value="O"> OtRO
+            <br><br>
+            <label for="intereses">Intereses</label><br>
+            <input type="checkbox" name="intereses" id="intereses" value="musica">Musica
+            <input type="checkbox" name="intereses" id="intereses" value="deportes">Deportes
+            <input type="checkbox" name="intereses" id="intereses" value="Videojuegos">Videojuegos
+            <br><br>
+            <label for="carrera">Carrera</label>
+            <select name="carrera" id="carrera">
+                <option default hidden>Selecciona su carrera</option>
+                <option value="LTIN">LTIN</option>
+                <option value="LAFI">LAFI</option>
+                <option value="LINI">LINI</option>
+                <option value="TURI">TURI</option>
+            </select>
+            <br><br>
+            <label for="comentarios">Comentarios</label><br>
+            <textarea name="comentarios" id="comentarios" ></textarea>
+            <br><br>
+            <label for="archivo">Suba un archivo</label>
+            <input type="file" name="archivo" id="archivo">
+            <br><br>
+            <label for="ranh"></label>
+            <input type="range">
+            <br><br>
+            <input type="submit" value="Registrar">
+        </form>
+    </main>
+    
+
+</body>
+</html>

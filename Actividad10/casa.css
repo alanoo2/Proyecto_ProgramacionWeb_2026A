@@ -1,0 +1,87 @@
+
+
+.cont{
+    background-color:blueviolet;
+}
+
+
+.house {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 220px;
+    width: 200px;
+    height: 200px;
+    background-color: bisque;
+}
+
+.chimney{
+    position: absolute;
+    bottom: 225px;
+    left: 35px;
+    width: 40px;
+    height: 60px;
+    background-color: brown;
+
+}
+
+.roof{
+    position: relative;
+    bottom: 100px;
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid transparent;
+    border-left: 100px solid transparent;
+    border-bottom: 100px solid orangered;
+}
+
+.door{
+    position: relative;
+   width: 60px;
+   height: 100px;
+   top: 5px;
+   left: 65px;
+   background-color:peru;
+   border-radius: 15px;
+    border: 3px solid brown;
+    z-index: 90;
+}
+
+.window01{
+     position: absolute;
+   width: 50px;
+   height: 50px;
+   background-color: aqua;
+   right: 10px;
+    top: 50px;
+    border-radius: 10px;
+}
+
+.window02{
+     position: absolute;
+   width: 50px;
+   height: 50px;
+   background-color: aqua;
+   left: 7px;
+   top: 50px;
+    border-radius: 10px;
+}
+
+.decor{
+    position: absolute;
+   width: 200px;
+   height: 50px;
+   background-color:tan ;
+   top: 150px;
+   z-index: 10;
+}
+
+.grass{
+    position: relative;
+    bottom: 0px;
+    left: 145px;
+    width: 340px;
+    height: 10px;
+    background-color: green;
+    border-radius:  25px; 
+    z-index: 100;
+}

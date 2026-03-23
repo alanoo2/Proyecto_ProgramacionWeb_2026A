@@ -1,0 +1,57 @@
+.cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    padding: 5px; 
+    margin: 2px;
+}
+
+p{
+    font-size: 10px;
+    margin: 0px;
+    padding: 0px;
+}
+h4{
+    margin: 0px;
+    padding: 0px;
+}
+
+.tabla{
+    display: flex;
+    flex-direction: row;
+}
+
+.col{
+    flex-direction: column;
+}
+
+.col2{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.nmr{
+    background-color: yellowgreen;
+}
+
+.ml{
+    background-color:crimson;
+}
+
+.ma{
+    background-color: orange;
+}
+
+.mt{
+    background-color:skyblue;
+}
+
+.l{
+    background-color: cornflowerblue;
+}
+
+.ac{
+    background-color:aquamarine ;
+}

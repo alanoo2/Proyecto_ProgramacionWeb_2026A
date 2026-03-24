@@ -7,6 +7,9 @@
     padding: 5px; 
     margin: 2px;
 }
+.cont:hover{
+    opacity: 0.6;
+}
 
 p{
     font-size: 10px;
@@ -32,6 +35,24 @@ h4{
     flex-direction: column-reverse;
 }
 
+.col3{
+    margin-top: 25px;
+    position: absolute;
+    top: 480px;
+    left: 185px;
+    display: flex;
+    flex-direction: row;
+}
+
+.col4{
+    margin-top: 25px;
+    position: absolute;
+    top: 540px;
+    left: 185px;
+    display: flex;
+    flex-direction: row;
+}
+
 .nmr{
     background-color: yellowgreen;
 }
@@ -42,6 +63,7 @@ h4{
 
 .ma{
     background-color: orange;
+    color: white;
 }
 
 .mt{
@@ -50,8 +72,25 @@ h4{
 
 .l{
     background-color: cornflowerblue;
+    color: white
 }
 
 .ac{
     background-color:aquamarine ;
+}
+
+.mp{
+    background-color: darkslateblue;
+}
+
+.unk{
+    background-color: slategray;
+}
+
+.m{
+    background-color: yellow;
+}
+
+.gn{
+    background-color: violet;
 }

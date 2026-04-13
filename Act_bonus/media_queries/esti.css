@@ -1,0 +1,48 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cont {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.caja {
+    flex: 1 1 200px; /* crece , se encoge , tamano base */
+    background-color: blue;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+h1{
+    color: crimson;
+    text-align: center;
+}
+
+    /* Estilos responsive */
+
+@media screen and (max-width: 320px){
+    h1{
+        color: blue;
+    }
+    .caja{
+        background-color: crimson;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 480px){
+    h1{
+        background-color: forestgreen;
+    }
+    .caja{
+        background-color: greenyellow;
+    }
+}
+
+@media screen and (orientation: landscape){
+    h1 {
+        background-color: coral;
+    }
+}

@@ -1,0 +1,51 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav{
+    display: flex;
+    color: white;
+    background-color: crimson;
+    padding: 10px;
+    gap: 10px;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    gap: 5px;
+}
+
+.noticias {
+    margin-top: 10px;
+    background-color: gainsboro;
+    height: 140px;
+    width: 80px;
+    border: 1px solid gray;
+}
+
+.publicidad{
+    padding: 5px;
+    margin-top: 10px;
+    background-color: orange;
+    width: 120px;
+    border: 1px solid orangered;
+}
+
+.publicidad h5{
+    font-size: 14px;
+    color: orangered;
+}
+
+.publicidad p{
+    font-size: 11px;
+}
+
+.seguir_leyendo{
+    font-size: 13px;
+    color: orangered;
+}
+
+.content{
+    color: orange;
+}
